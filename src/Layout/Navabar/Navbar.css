@@ -1,0 +1,22 @@
+.navbar {
+}
+.navbar .logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+.nav-link {
+  font-size: 20px;
+  box-sizing: border-box;
+  font-weight: light;
+  color: rgb(53, 53, 53);
+  margin-right: 10px;
+  font-family: "Anton", sans-serif;
+}
+.nav-link:hover {
+  border-bottom: 3px solid red;
+}

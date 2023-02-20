@@ -1,0 +1,35 @@
+.country {
+  margin-top: 7rem;
+}
+.country .dest {
+  color: #bb2d3b;
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.country .title {
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  margin-bottom: 4rem;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px #acacac;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: capitalize;
+}

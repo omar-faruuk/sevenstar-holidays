@@ -1,0 +1,47 @@
+.services {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+.services .title {
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  margin-bottom: 4rem;
+}
+
+.services .card-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.services .card-title {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.services .slide {
+  width: 95% !important;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.services .slide button {
+}
+
+.slick-dots {
+  position: relative;
+}
+
+.slick-dots li > div {
+  width: 34px;
+  color: #ffff !important;
+  border: none !important;
+  background-color: #d52f46;
+}
+.slick-dots li {
+  width: 22px !important;
+}

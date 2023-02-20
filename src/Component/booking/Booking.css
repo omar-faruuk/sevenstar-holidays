@@ -1,0 +1,36 @@
+.booking {
+  margin-top: 1rem;
+}
+
+.book-details {
+  text-align: left;
+  margin-top: 6rem;
+}
+.book-details span {
+  font-family: "Lobster", cursive;
+  color: #bb2d3b;
+}
+.book-details h2 {
+  font-size: 34px;
+  font-weight: 400;
+  font-family: "Anton", sans-serif;
+  margin-top: 1rem;
+}
+.book-details p {
+  font-size: 22px;
+  margin-top: 2rem;
+}
+.book-details ul {
+  margin-top: 2rem;
+}
+.book-details ul li {
+  list-style: circle;
+  line-height: 2rem;
+  font-size: 18px;
+  font-weight: 400;
+}
+.book-details button {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  padding: 5rem;
+}
