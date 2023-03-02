@@ -1,0 +1,37 @@
+.team {
+  margin-top: 5rem;
+  text-align: center;
+}
+.team h4 {
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 4rem;
+}
+.team-slide {
+  /* width: 50%; */
+  text-align: center;
+  /* box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1); */
+}
+.team-slide img {
+  /* width: 100%; */
+  height: 350px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+.team-slide p {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.team-slide h5 {
+  font-size: 24px;
+}
+
+.sr-panel img {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  text-align: center;
+}

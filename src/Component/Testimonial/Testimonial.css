@@ -1,0 +1,48 @@
+.testimonial {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  background-color: rgba(40, 66, 211, 0.8);
+  /* background-color: rgb(50, 94, 214); */
+}
+
+.testimonial .title {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.review {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  /* display: block; */
+  padding: 5rem 4rem;
+  border-radius: 10px;
+}
+.review .review-img {
+  border-radius: 50%;
+  position: absolute;
+  bottom: -56%;
+  left: 45%;
+}
+.review-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  text-align: center;
+  border: 7px solid rgb(50, 94, 214);
+}
+
+.checked {
+  color: orange;
+}
+
+.testimonial .slick-list {
+  padding-bottom: 9rem !important;
+}
+
+.slick-prev,
+.slick-next {
+  top: 30%;
+}
