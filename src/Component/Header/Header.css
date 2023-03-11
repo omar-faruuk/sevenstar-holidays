@@ -24,13 +24,31 @@
   text-transform: capitalize;
   /* font-family: "Lobster", cursive; */
 }
-
-.header input,
-select {
+.header input {
   border: none;
-  padding: 10px;
+  font-size: 18px;
+  /* font-weight: bold; */
+  color: rgb(0, 0, 0);
 }
+/* .header select {
+  font-weight: lighter;
+  color: gray;
+} */
+.header input::placeholder,
+.header select,
+.header input[type="date"] {
+  font-size: 18px;
+  font-weight: light;
+  color: gray;
+}
+.header input:focus {
+  outline: none;
+  /* color: gray; */
+}
+
 .header label {
   margin-left: 8px;
-  font-weight: light;
+  font-weight: 500;
+  font-size: 18px;
+  /* font-weight: bold; */
 }

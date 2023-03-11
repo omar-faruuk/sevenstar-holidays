@@ -46,8 +46,9 @@ const Header = () => {
                   className="form-select border-0"
                   aria-label="Default select example"
                 >
-                  <option selected>select</option>
-                  <option value="1">Tourist</option>
+                  <option selected value="1">
+                    Tourist
+                  </option>
                   <option value="2">Business</option>
                   <option value="3">Student</option>
                 </select>

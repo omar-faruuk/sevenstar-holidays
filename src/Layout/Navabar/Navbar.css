@@ -12,10 +12,10 @@
 .nav-link {
   font-size: 20px;
   box-sizing: border-box;
-  font-weight: light;
+  font-weight: 500;
   color: rgb(53, 53, 53);
   margin-right: 10px;
-  font-family: "Anton", sans-serif;
+  /* font-family: "Anton", sans-serif; */
 }
 .nav-link:hover {
   border-bottom: 3px solid red;

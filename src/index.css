@@ -7,6 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
 }
 
 code {
@@ -20,4 +21,9 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+*:focus {
+  outline: none;
+  border: none;
+  box-shadow: none !important;
 }
