@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../../Layout/Navabar/Navbar";
 import "./Header.css";
+import { Link, Navigate, useNavigate } from "react-router-dom";
+// import { computeHeadingLevel } from "@testing-library/react";
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const country = e.target.country.value;
+    const type = e.target.type.value;
+    navigate(country + "/" + type);
+  };
+
   return (
     <div className="header">
       <Navbar />
@@ -15,7 +26,7 @@ const Header = () => {
 
           {/* form */}
           <div className="col-md-12">
-            <form className="form p-2 d-flex  bg-white">
+            <form onSubmit={handleSubmit} className="form p-2 d-flex  bg-white">
               <div className="col-md-3 border-end">
                 <label for="exampleInputEmail1" className="form-label">
                   Where to
@@ -23,19 +34,22 @@ const Header = () => {
                 <input
                   type="text"
                   className="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
                   placeholder="Enter country"
+                  required
+                  name="country"
                 />
               </div>
               <div className="col-md-3 border-end">
                 <label for="exampleInputPassword1" className="form-label">
-                  When
+                  From
                 </label>
                 <input
-                  type="date"
-                  className="form-control"
-                  id="exampleInputPassword1"
+                  type="text"
+                  className="form-control disabled"
+                  id="disabledTextInput"
+                  placeholder="Bangladesh"
+                  disabled
+                  required
                 />
               </div>
               <div className="col-md-3 border-end">
@@ -43,14 +57,17 @@ const Header = () => {
                   Type
                 </label>
                 <select
+                  name="type"
                   className="form-select border-0"
                   aria-label="Default select example"
                 >
-                  <option selected value="1">
+                  <option selected value="Tourist">
                     Tourist
                   </option>
-                  <option value="2">Business</option>
-                  <option value="3">Student</option>
+                  <option value="medical">Medical</option>
+                  <option value="doubleEntry">Double Entry</option>
+                  <option value="Business">Business</option>
+                  <option value="Student">Student</option>
                 </select>
               </div>
 
@@ -59,6 +76,9 @@ const Header = () => {
                 className="text-uppercase col-md-3  btn btn-danger"
               >
                 Find now
+                {/* <Link className="w-100 text-white" to={route}>
+                 
+                </Link> */}
               </button>
             </form>
           </div>
