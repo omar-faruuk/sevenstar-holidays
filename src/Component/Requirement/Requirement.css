@@ -3,7 +3,13 @@
 .requirement .banner {
   width: 100%;
   height: 50vh;
-  /* object-fit: contain; */
+  /* object-fit: cover; */
+}
+
+.requirement .banner-thailand {
+  /* width: 100%;
+  height: 50vh;
+  object-fit: cover; */
 }
 
 .requirement ul {

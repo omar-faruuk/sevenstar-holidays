@@ -19,6 +19,11 @@
   position: relative;
   display: inline-block;
 }
+.image-container:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
 
 .text-container {
   position: absolute;

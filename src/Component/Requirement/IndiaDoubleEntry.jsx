@@ -15,157 +15,151 @@ const IndiaDoubleEntry = () => {
           <div className="row gap-4">
             <h1>Double Entry Visa Only</h1>
             <div className="col-md-6 bg-white p-4">
-              <h5>
+              {/* <h5>
                 A tourist visa is an official document or stamp that authorizes
                 an individual to enter a foreign country for the purpose of
                 leisure and tourism.
-              </h5>
+              </h5> */}
               <h3 className="mt-5">
                 Required Documents for Sticker visa (India)
               </h3>
               <ul className="mb-3">
                 <b>Job Holder:</b>
                 <li className="list">
-                  07 Months Valid Passport With Old Passport (If have)
+                  Passport, in original, with a minimum validity of six months
+                  as on the date of submission of application for visa. The
+                  passport should have at least two (2) blank pages. Copy of the
+                  passport ( Page no 2 & 3 ) should be attached. All old
+                  passports must be submitted with the application form.
                 </li>
                 <li className="list">
-                  Recent 2 copy photograph taken in last 3 months (white
-                  background only, photo size 35 mm X 45 mm)
+                  One recent (not less than 3 months old) 2x2 (350x350 pixels)
+                  colour photograph depicting full face with white background.
                 </li>
-                <li className="list">Visiting card</li>
+                <li className="list">NID/Birth certificate,</li>
+                <li className="list">
+                  Utility Bill such as electricity, telephone, gas or water bill
+                  (not more than 6 month old)
+                </li>
                 <li className="list">No objection certificate (NOC)</li>
+                <li className="list">Employee Id card copy (One photo copy)</li>
+
+                <li className="list">
+                  Proof of Financial soundness: International travel card like
+                  SBI Travel card / updated bank statement (last 3 month) /
+                  endorsement* of foreign currency equivalent to US$150/- per
+                  applicant ( Endorsement* should not be older than 1 (one)
+                  month at the time of submission), International credit card
+                  with running year endorsement in the passport.
+                </li>
+                <li className="list">
+                  Vfs (Visa Facilitation Services) Appointment letter for
+                  specific Country
+                </li>
+                <li className="list">Work permit letter</li>
                 <li className="list">
                   Marriage certificate copy (if spouse name not mentioned in the
                   passport)
-                </li>
-                <li className="list">Employee Id card copy (One photo copy)</li>
-                <li className="list">
-                  Salary bank statement (Last 06 months) and bank solvency
-                  certificate or salary certificate or pay slip
-                </li>
-                <li className="list">Personal bank solvency certificate</li>
-                <li className="list">
-                  Personal bank statement of last 06 months and minimum balance
-                  BDT 20,000 for each applicant.
                 </li>
               </ul>
 
               <ul className="mb-3">
                 <b>Businessman:</b>
                 <li className="list">
-                  07 Months Valid Passport With Old Passport (If have)
+                  Passport, in original, with a minimum validity of six months
+                  as on the date of submission of application for visa. The
+                  passport should have at least two (2) blank pages. Copy of the
+                  passport ( Page no 2 & 3 ) should be attached. All old
+                  passports must be submitted with the application form.
                 </li>
                 <li className="list">
-                  Recent 2 copy photograph taken in last 3 months (white
-                  background only, photo size 35 mm X 45 mm)
+                  One recent (not less than 3 months old) 2x2 (350x350 pixels)
+                  colour photograph depicting full face with white background.
                 </li>
+                <li className="list">NID/Birth certificate,</li>
                 <li className="list">
-                  Personal or Company bank statement of last 06 months and
-                  minimum balance BDT 20,000 for each applicant
+                  Utility Bill such as electricity, telephone, gas or water bill
+                  (not more than 6 month old)
                 </li>
                 <li className="list">
                   Renewal trade license copy with notary public (english
                   translated)
                 </li>
-                <li className="list">Visiting card</li>
-                <li className="list">
-                  Marriage certificate copy (if spouse name not mentioned in the
-                  passport)
-                </li>
-                <li className="list">
-                  Memorandum for limited company form page XII (One photo copy)
-                </li>
-                <li className="list">Company letter head pad</li>
-                <li className="list">
-                  Personal or company bank solvency certificate
-                </li>
-              </ul>
-
-              <ul className="mb-3">
-                <b>Govt Job Holder:</b>
-                <li className="list">
-                  07 Months Valid Passport With Old Passport (If have)
-                </li>
-                <li className="list">
-                  Recent 2 copy photograph taken in last 3 months (white
-                  background only, photo size 35 mm X 45 mm)
-                </li>
-                <li className="list">Visiting card</li>
-                <li className="list">
-                  Marriage certificate copy (if spouse name not mentioned in the
-                  passport)
-                </li>
                 <li className="list">Employee Id card copy (One photo copy)</li>
+
                 <li className="list">
-                  Salary bank statement (Last 06 months) and bank solvency
-                  certificate or salary certificate or pay slip
+                  Proof of Financial soundness: International travel card like
+                  SBI Travel card / updated bank statement (last 3 month) /
+                  endorsement* of foreign currency equivalent to US$150/- per
+                  applicant ( Endorsement* should not be older than 1 (one)
+                  month at the time of submission), International credit card
+                  with running year endorsement in the passport.
                 </li>
-                <li className="list">Personal bank solvency certificate</li>
                 <li className="list">
-                  Personal bank statement of last 06 months and minimum balance
-                  BDT 70,000 for each applicant.
+                  Vfs (Visa Facilitation Services) Appointment letter for
+                  specific Country
                 </li>
+                <li className="list">Work permit letter</li>
                 <li className="list">
-                  GO (Government order) for official passport
+                  Marriage certificate copy (if spouse name not mentioned in the
+                  passport)
                 </li>
               </ul>
 
               <ul className="mb-3">
-                <b>Doctor:</b>
+                <b>Housewife:</b>
                 <li className="list">
-                  07 Months Valid Passport With Old Passport (If have)
+                  Passport, in original, with a minimum validity of six months
+                  as on the date of submission of application for visa. The
+                  passport should have at least two (2) blank pages. Copy of the
+                  passport ( Page no 2 & 3 ) should be attached. All old
+                  passports must be submitted with the application form.
                 </li>
                 <li className="list">
-                  Recent 2 copy photograph taken in last 3 months (white
-                  background only, photo size 35 mm X 45 mm)
+                  One recent (not less than 3 months old) 2x2 (350x350 pixels)
+                  colour photograph depicting full face with white background.
                 </li>
-                <li className="list">Visiting card</li>
+                <li className="list">NID/Birth certificate,</li>
                 <li className="list">
-                  BMDC certificate for doctor (Scan copy)
+                  Utility Bill such as electricity, telephone, gas or water bill
+                  (not more than 6 month old)
                 </li>
                 <li className="list">
                   Marriage certificate copy (if spouse name not mentioned in the
                   passport)
                 </li>
-                <li className="list">Personal bank solvency certificate</li>
                 <li className="list">
-                  Personal bank statement of last 06 months and minimum balance
-                  BDT 70,000 for each applicant.
+                  Proof of Financial soundness: International travel card like
+                  SBI Travel card / updated bank statement (last 3 month) /
+                  endorsement* of foreign currency equivalent to US$150/- per
+                  applicant ( Endorsement* should not be older than 1 (one)
+                  month at the time of submission), International credit card
+                  with running year endorsement in the passport.
                 </li>
+                <li className="list">
+                  Vfs (Visa Facilitation Services) Appointment letter for
+                  specific Country
+                </li>
+                <li className="list">Work permit letter</li>
               </ul>
 
-              <ul className="mb-3">
-                <b>Advocate _ Lawyer:</b>
-                <li className="list">
-                  07 Months Valid Passport With Old Passport (If have)
-                </li>
-                <li className="list">
-                  Recent 2 copy photograph taken in last 3 months (white
-                  background only, photo size 35 mm X 45 mm)
-                </li>
-                <li className="list">Visiting card</li>
-                <li className="list">
-                  BAR council certificate (One photo copy)
-                </li>
-                <li className="list">
-                  Marriage certificate copy (if spouse name not mentioned in the
-                  passport)
-                </li>
-                <li className="list">Personal bank solvency certificate</li>
-                <li className="list">
-                  Personal bank statement of last 06 months and minimum balance
-                  BDT 70,000 for each applicant.
-                </li>
-              </ul>
-
-              <ul className="mb-3">
+              {/* <ul className="mb-3">
                 <b>Student:</b>
                 <li className="list">
-                  07 Months Valid Passport With Old Passport (If have)
+                  Passport, in original, with a minimum validity of six months
+                  as on the date of submission of application for visa. The
+                  passport should have at least two (2) blank pages. Copy of the
+                  passport ( Page no 2 & 3 ) should be attached. All old
+                  passports must be submitted with the application form.
                 </li>
                 <li className="list">
-                  Recent 2 copy photograph taken in last 3 months (white
-                  background only, photo size 35 mm X 45 mm)
+                  One recent (not less than 3 months old) 2x2 (350x350 pixels)
+                  colour photograph depicting full face with white background.
+                </li>
+                <li className="list">NID/Birth certificate,</li>
+                <li className="list">
+                  Utility Bill such as electricity, telephone, gas or water bill
+                  (not more than 6 month old)
                 </li>
                 <li className="list">ID card (Student) one photo copy</li>
                 <li className="list">
@@ -173,54 +167,160 @@ const IndiaDoubleEntry = () => {
                 </li>
                 <li className="list">
                   Parents bank statement (Last 06 months) & solvency certificate
-                  ( Minimum balance BDT 70,000 for each applicant )
+                  ( Minimum balance BDT 20,000 for each applicant )
+                </li>
+              </ul>
+
+              <ul className="mb-3">
+                <b>Govt Job Holder:</b>
+                <li className="list">
+                  Passport, in original, with a minimum validity of six months
+                  as on the date of submission of application for visa. The
+                  passport should have at least two (2) blank pages. Copy of the
+                  passport ( Page no 2 & 3 ) should be attached. All old
+                  passports must be submitted with the application form.
+                </li>
+                <li className="list">
+                  One recent (not less than 3 months old) 2x2 (350x350 pixels)
+                  colour photograph depicting full face with white background.
+                </li>
+                <li className="list">NID/Birth certificate,</li>
+                <li className="list">
+                  Utility Bill such as electricity, telephone, gas or water bill
+                  (not more than 6 month old)
+                </li>
+                <li className="list">
+                  GO (Government order) for official passport
+                </li>
+                <li className="list">Employee Id card copy (One photo copy)</li>
+                <li className="list">
+                  Proof of Financial soundness: International travel card like
+                  SBI Travel card / updated bank statement (last 3 month) /
+                  endorsement* of foreign currency equivalent to US$150/- per
+                  applicant ( Endorsement* should not be older than 1 (one)
+                  month at the time of submission), International credit card
+                  with running year endorsement in the passport.
+                </li>
+                <li className="list">
+                  Marriage certificate copy (if spouse name not mentioned in the
+                  passport)
+                </li>
+              </ul>
+
+              <ul className="mb-3">
+                <b>Doctor:</b>
+                <li className="list">
+                  Passport, in original, with a minimum validity of six months
+                  as on the date of submission of application for visa. The
+                  passport should have at least two (2) blank pages. Copy of the
+                  passport ( Page no 2 & 3 ) should be attached. All old
+                  passports must be submitted with the application form.
+                </li>
+                <li className="list">
+                  One recent (not less than 3 months old) 2x2 (350x350 pixels)
+                  colour photograph depicting full face with white background.
+                </li>
+                <li className="list">NID/Birth certificate,</li>
+                <li className="list">
+                  Utility Bill such as electricity, telephone, gas or water bill
+                  (not more than 6 month old)
+                </li>
+                <li className="list">
+                  BMDC certificate for doctor (Scan copy)
+                </li>
+                <li className="list">Employee Id card copy (One photo copy)</li>
+                <li className="list">
+                  Proof of Financial soundness: International travel card like
+                  SBI Travel card / updated bank statement (last 3 month) /
+                  endorsement* of foreign currency equivalent to US$150/- per
+                  applicant ( Endorsement* should not be older than 1 (one)
+                  month at the time of submission), International credit card
+                  with running year endorsement in the passport.
+                </li>
+                <li className="list">
+                  Marriage certificate copy (if spouse name not mentioned in the
+                  passport)
+                </li>
+              </ul>
+
+              <ul className="mb-3">
+                <b>Advocate _ Lawyer:</b>
+                <li className="list">
+                  Passport, in original, with a minimum validity of six months
+                  as on the date of submission of application for visa. The
+                  passport should have at least two (2) blank pages. Copy of the
+                  passport ( Page no 2 & 3 ) should be attached. All old
+                  passports must be submitted with the application form.
+                </li>
+                <li className="list">
+                  One recent (not less than 3 months old) 2x2 (350x350 pixels)
+                  colour photograph depicting full face with white background.
+                </li>
+                <li className="list">NID/Birth certificate,</li>
+                <li className="list">
+                  Utility Bill such as electricity, telephone, gas or water bill
+                  (not more than 6 month old)
+                </li>
+                <li className="list">
+                  BAR council certificate (One photo copy)
+                </li>
+                <li className="list">Employee Id card copy (One photo copy)</li>
+                <li className="list">
+                  Proof of Financial soundness: International travel card like
+                  SBI Travel card / updated bank statement (last 3 month) /
+                  endorsement* of foreign currency equivalent to US$150/- per
+                  applicant ( Endorsement* should not be older than 1 (one)
+                  month at the time of submission), International credit card
+                  with running year endorsement in the passport.
+                </li>
+                <li className="list">
+                  Marriage certificate copy (if spouse name not mentioned in the
+                  passport)
                 </li>
               </ul>
 
               <ul className="mb-3">
                 <b>Non-student Child:</b>
                 <li className="list">
-                  07 Months Valid Passport With Old Passport (If have)
+                  Passport, in original, with a minimum validity of six months
+                  as on the date of submission of application for visa. The
+                  passport should have at least two (2) blank pages. Copy of the
+                  passport ( Page no 2 & 3 ) should be attached. All old
+                  passports must be submitted with the application form.
                 </li>
                 <li className="list">
-                  Recent 2 copy photograph taken in last 3 months (white
-                  background only, photo size 35 mm X 45 mm)
+                  One recent (not less than 3 months old) 2x2 (350x350 pixels)
+                  colour photograph depicting full face with white background.
                 </li>
                 <li className="list">Birth certificate</li>
                 <li className="list">
-                  Parents bank statement (Last 06 months) & solvency certificate
-                  ( Minimum balance BDT 70,000 for each applicant )
+                  Utility Bill such as electricity, telephone, gas or water bill
+                  (not more than 6 month old)
                 </li>
-              </ul>
 
-              <ul className="mb-3">
-                <b>Housewife:</b>
                 <li className="list">
-                  07 Months Valid Passport With Old Passport (If have)
+                  Parents bank statement (Last 06 months) & solvency certificate
+                  ( Minimum balance BDT 20,000 for each applicant )
                 </li>
-                <li className="list">
-                  Recent 2 copy photograph taken in last 3 months (white
-                  background only, photo size 35 mm X 45 mm)
-                </li>
-                <li className="list">
-                  Marriage certificate copy (if spouse name not mentioned in the
-                  passport)
-                </li>
-                <li className="list">Personal bank solvency certificate</li>
-                <li className="list">
-                  Personal bank statement of last 06 months and minimum balance
-                  BDT 70,000 for each applicant.
-                </li>
-              </ul>
+              </ul> */}
 
               <ul className="mb-3">
                 <b>Retired person:</b>
                 <li className="list">
-                  07 Months Valid Passport With Old Passport (If have)
+                  Passport, in original, with a minimum validity of six months
+                  as on the date of submission of application for visa. The
+                  passport should have at least two (2) blank pages. Copy of the
+                  passport ( Page no 2 & 3 ) should be attached. All old
+                  passports must be submitted with the application form.
                 </li>
                 <li className="list">
-                  Recent 2 copy photograph taken in last 3 months (white
-                  background only, photo size 35 mm X 45 mm)
+                  One recent (not less than 3 months old) 2x2 (350x350 pixels)
+                  colour photograph depicting full face with white background.
+                </li>
+                <li className="list">NID/Birth certificate,</li>
+                <li className="list">
+                  Utility Bill such as electricity, telephone, gas or water bill
+                  (not more than 6 month old)
                 </li>
                 <li className="list">
                   Retirement document (Retired Person) one photo copy
@@ -229,30 +329,43 @@ const IndiaDoubleEntry = () => {
                   Marriage certificate copy (if spouse name not mentioned in the
                   passport)
                 </li>
-                <li className="list">Personal bank solvency certificate</li>
                 <li className="list">
-                  Personal bank statement of last 06 months and minimum balance
-                  BDT 70,000 for each applicant.
+                  Proof of Financial soundness: International travel card like
+                  SBI Travel card / updated bank statement (last 3 month) /
+                  endorsement* of foreign currency equivalent to US$150/- per
+                  applicant ( Endorsement* should not be older than 1 (one)
+                  month at the time of submission), International credit card
+                  with running year endorsement in the passport.
                 </li>
+                <li className="list">
+                  Vfs (Visa Facilitation Services) Appointment letter for
+                  specific Country
+                </li>
+                <li className="list">Work permit letter</li>
               </ul>
 
               <ul className="mb-3">
                 <b>Unemployed:</b>
                 <li className="list">
-                  07 Months Valid Passport With Old Passport (If have)
+                  06 Months Valid Passport With Old Passport (If have)
                 </li>
                 <li className="list">
-                  Recent 2 copy photograph taken in last 3 months (white
-                  background only, photo size 35 mm X 45 mm)
+                  Recent 1 copy photograph taken in last 3 months (white
+                  background only, photo size 2x2)
                 </li>
                 <li className="list">Personal bank solvency certificate</li>
                 <li className="list">
                   Personal bank statement of last 06 months and minimum balance
-                  BDT 70,000 for each applicant.
+                  BDT 20,000 for each applicant.
                 </li>
                 <li className="list">
                   NID or birth certificate (must) one photo copy
                 </li>
+                <li className="list">
+                  Vfs (Visa Facilitation Services) Appointment letter for
+                  specific Country
+                </li>
+                <li className="list">Work permit letter</li>
               </ul>
             </div>
             <div className="col-md-4">
@@ -261,9 +374,7 @@ const IndiaDoubleEntry = () => {
                   <h4 className="card-title">
                     Sticker visa (India) Type:Sticker Visa
                   </h4>
-                  <p class="card-text fw-light">
-                    Service charge: BDT 300/person
-                  </p>
+                  <p class="card-text fw-light">Embassy fee: BDT 850/person</p>
                   <small className="text-warning">
                     <CiWarning color="#FFB233" size={19} />
                     Visa fee & service charge can be change
