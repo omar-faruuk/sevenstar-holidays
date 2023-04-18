@@ -1,7 +1,7 @@
 .testimonial {
   padding-top: 4rem;
   padding-bottom: 5rem;
-  background-color: rgba(40, 66, 211, 0.8);
+  background-color: rgba(191, 40, 211, 0.8);
   /* background-color: rgb(50, 94, 214); */
 }
 
@@ -19,11 +19,12 @@
   /* display: block; */
   padding: 5rem 4rem;
   border-radius: 10px;
+  font-family: "Inter", sans-serif;
 }
 .review .review-img {
   border-radius: 50%;
   position: absolute;
-  bottom: -56%;
+  bottom: -50%;
   left: 45%;
 }
 .review-img img {
@@ -35,7 +36,7 @@
 }
 
 .checked {
-  color: rgb(255, 0, 200);
+  color: rgb(255, 174, 0);
 }
 
 .testimonial .slick-list {
@@ -45,4 +46,34 @@
 .slick-prev,
 .slick-next {
   top: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonial {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow-x: hidden;
+  }
+  .testimonial .title {
+    margin-bottom: 0;
+  }
+  .review {
+    padding: 1rem;
+    padding-bottom: 7.5rem;
+    padding-top: 0;
+    text-align: start;
+  }
+  .review .review-img {
+    border-radius: 0;
+    position: absolute;
+    bottom: -28%;
+    left: 35%;
+  }
+  .rating {
+    text-align: center;
+  }
+  .testimonial .slick-list {
+    padding-bottom: 4rem !important;
+  }
 }

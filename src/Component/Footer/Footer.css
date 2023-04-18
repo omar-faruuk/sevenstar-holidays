@@ -1,27 +1,38 @@
 .footer {
   background-color: #313041;
   color: white;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   padding: 3rem;
+  padding-bottom: 1rem;
+  font-family: "Inter", sans-serif;
 }
 
-.footer .contact {
-  font-size: 16px;
-  line-height: 1.7rem;
-}
-.footer .link li {
-  /* margin: 3px; */
+.footer #contact {
   font-size: 18px;
   line-height: 1.7rem;
+}
+.footer .link li,
+.contact li {
+  /* margin: 3px; */
+  font-size: 18px !important;
+  line-height: 1.7rem;
+}
+.social-link li a {
+  text-decoration: none;
+  color: white;
+}
+.social-link li:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 .footer .link li:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-.social li:hover {
+.social li:hover a {
   cursor: pointer;
-  transform: scale(1);
+  transform: scale(1.1);
 }
 .social li {
   background-color: white;
@@ -40,4 +51,60 @@
 }
 .footer .payment:last-child {
   background-color: white;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 5rem;
+  /* padding-bottom: 1 !important; */
+}
+.copyright p {
+  font-size: 16px;
+  margin-top: 1rem;
+  /* padding-bottom: 1 !important; */
+  font-family: "Inter", sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  .footer {
+    padding: 1rem;
+    padding-bottom: 0.3rem;
+  }
+
+  .footer #contact {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+  .footer .link li,
+  .contact li {
+    /* margin: 3px; */
+    font-size: 14px !important;
+    line-height: 1.5rem;
+  }
+  .pay h4 {
+    font-size: 20px;
+  }
+  .follow h4 {
+    text-align: center;
+  }
+  .social {
+    justify-content: center;
+  }
+  .social li {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .social li svg {
+    font-size: 12px;
+    width: 2rem;
+  }
+  .copyright {
+    text-align: center;
+    padding-bottom: 1 !important;
+  }
+  .copyright p {
+    font-size: 10px;
+    margin-top: 1rem;
+    /* padding-bottom: 1 !important; */
+    font-family: "Inter", sans-serif;
+  }
 }

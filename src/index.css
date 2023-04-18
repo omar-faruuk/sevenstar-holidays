@@ -10,12 +10,17 @@ body {
   font-family: Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 * {
   box-sizing: border-box;
+  /* overflow-x: hidden; */
+  /* border: 1px solid red; */
 }
 ul {
   list-style: none;
@@ -26,4 +31,10 @@ ul {
   outline: none;
   border: none;
   box-shadow: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .booking {
+    overflow-x: hidden;
+  }
 }

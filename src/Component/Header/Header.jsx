@@ -19,15 +19,18 @@ const Header = () => {
       <Navbar />
       <div className="container">
         <div className="row d-flex align-items-center justify-content-center">
-          <div className="col-12 text-center">
+          <div className="col-12 textBox text-center">
             <h2 className="name">seven star holidays</h2>
             <p className="brand">your journey begins here</p>
           </div>
 
           {/* form */}
-          <div className="col-md-12">
-            <form onSubmit={handleSubmit} className="form p-2 d-flex  bg-white">
-              <div className="col-md-3 border-end">
+          <div className="col-md-12 formContainer">
+            <form
+              onSubmit={handleSubmit}
+              className="form p-md-2 d-md-flex  bg-white"
+            >
+              <div className="col-md-3 form-box border-md-end">
                 <label for="exampleInputEmail1" className="form-label">
                   Where to
                 </label>
@@ -39,7 +42,7 @@ const Header = () => {
                   name="country"
                 />
               </div>
-              <div className="col-md-3 border-end">
+              <div className="col-md-3 form-box border-md-end">
                 <label for="exampleInputPassword1" className="form-label">
                   From
                 </label>
@@ -52,7 +55,7 @@ const Header = () => {
                   required
                 />
               </div>
-              <div className="col-md-3 border-end">
+              <div className="col-md-3 form-box border-md-end">
                 <label for="exampleInputPassword1" className="form-label">
                   Type
                 </label>
@@ -73,7 +76,7 @@ const Header = () => {
 
               <button
                 type="submit"
-                className="text-uppercase col-md-3  btn btn-danger"
+                className="text-uppercase col-md-3 btn btn-danger"
               >
                 Find now
                 {/* <Link className="w-100 text-white" to={route}>

@@ -3,13 +3,21 @@ import "./Country.css";
 import india from "../../image/india.jpg";
 import thailan from "../../image/thailan.jpg";
 import singapor from "../../image/singapore.jpg";
-import bangkok from "../../image/bangkok.jpg";
+import usa from "../../image/usa.jpg";
 import malaysia from "../../image/malaysia.jpg";
-import doctor from "../../image/doctor.jpg";
+import dubai from "../../image/dubai.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Country = () => {
+  const navigate = useNavigate();
+
+  const handleRoute = (route) => {
+    navigate(route);
+    console.log(route);
+  };
+
   return (
-    <div className="country container text-center">
+    <div id="country" className="country container text-center">
       <p className="dest">Your destination</p>
       <h4 className="title">Go Exotic Places</h4>
 
@@ -17,7 +25,10 @@ const Country = () => {
 
       <div className="row">
         <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-          <div className="image-container">
+          <div
+            onClick={() => handleRoute("thailand/tourist")}
+            className="image-container"
+          >
             <img
               src={thailan}
               className="w-100 shadow-1-strong rounded mb-4"
@@ -28,20 +39,26 @@ const Country = () => {
             </div>
           </div>
 
-          <div className="image-container">
+          <div
+            onClick={() => handleRoute("dubai/tourist")}
+            className="image-container"
+          >
             <img
-              src={doctor}
+              src={dubai}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Wintry Mountain Landscape"
             />
             <div className="text-container">
-              <p>medical consultancy</p>
+              <p>Dubai</p>
             </div>
           </div>
         </div>
 
         <div className="col-lg-4 mb-4 mb-lg-0">
-          <div className="image-container">
+          <div
+            onClick={() => handleRoute("india/tourist")}
+            className="image-container"
+          >
             <img
               src={india}
               className="w-100 shadow-1-strong rounded mb-4"
@@ -52,7 +69,10 @@ const Country = () => {
             </div>
           </div>
 
-          <div className="image-container">
+          <div
+            onClick={() => handleRoute("malaysia/tourist")}
+            className="image-container"
+          >
             <img
               src={malaysia}
               className="w-100 shadow-1-strong rounded mb-4"
@@ -65,18 +85,24 @@ const Country = () => {
         </div>
 
         <div className="col-lg-4 mb-4 mb-lg-0">
-          <div className="image-container">
+          <div
+            onClick={() => handleRoute("usa/tourist")}
+            className="image-container"
+          >
             <img
-              src={bangkok}
+              src={usa}
               className="w-100 shadow-1-strong rounded mb-4"
               alt="Waves at Sea"
             />
             <div className="text-container">
-              <p>bangkok</p>
+              <p>usa</p>
             </div>
           </div>
 
-          <div className="image-container">
+          <div
+            onClick={() => handleRoute("singapore/tourist")}
+            className="image-container"
+          >
             <img
               src={singapor}
               className="w-100 shadow-1-strong rounded mb-4"

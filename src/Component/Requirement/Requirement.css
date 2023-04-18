@@ -17,21 +17,24 @@
 
 .requirement b {
   font-weight: 500;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 25px;
   margin-bottom: 5rem;
+  font-weight: bold;
 }
 
 .requirement ul li {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 400;
-  line-height: 30px;
-  font-family: sans-serif;
+  /* line-height: 22px; */
+  /* font-family: sans-serif; */
+  font-family: "Inter", sans-serif;
+  margin-bottom: 10px;
 }
 
 .requirement ul .list:before {
-  content: "\00BB";
-  color: green;
+  content: "\2714";
+  color: rgb(0, 0, 0);
   margin-right: 10px;
-  font-size: 28px;
+  font-size: 22px;
 }

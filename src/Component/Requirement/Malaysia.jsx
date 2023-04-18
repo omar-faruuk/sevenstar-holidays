@@ -264,7 +264,7 @@ const Malaysia = () => {
               <div className="card p-1">
                 <div className="card-body">
                   <h4 className="card-title">
-                    Sticker visa (Thailand) Type:Sticker Visa
+                    Sticker visa (Malaysia) Type:Sticker Visa
                   </h4>
                   <p class="card-text fw-light">
                     Service charge: BDT 5200/person

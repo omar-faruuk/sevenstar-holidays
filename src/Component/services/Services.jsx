@@ -72,7 +72,7 @@ const Services = () => {
   };
 
   return (
-    <div className="container-fluid services">
+    <div id="services" className="container-fluid services">
       <h4 className="title text-center">Most Popular Services</h4>
 
       <Slider {...settings}>
