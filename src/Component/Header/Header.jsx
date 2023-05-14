@@ -76,7 +76,7 @@ const Header = () => {
 
               <button
                 type="submit"
-                className="text-uppercase col-md-3 btn btn-danger"
+                className="text-uppercase col-md-3 find-btn btn btn-danger"
               >
                 Find now
                 {/* <Link className="w-100 text-white" to={route}>

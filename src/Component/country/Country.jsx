@@ -7,6 +7,7 @@ import usa from "../../image/usa.jpg";
 import malaysia from "../../image/malaysia.jpg";
 import dubai from "../../image/dubai.jpg";
 import { useNavigate } from "react-router-dom";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const Country = () => {
   const navigate = useNavigate();
@@ -20,6 +21,10 @@ const Country = () => {
     <div id="country" className="country container text-center">
       <p className="dest">Your destination</p>
       <h4 className="title">Go Exotic Places</h4>
+      <MessengerCustomerChat
+        pageId="112421340608702>"
+        appId="624425182379220"
+      />
 
       {/* gallery */}
 
