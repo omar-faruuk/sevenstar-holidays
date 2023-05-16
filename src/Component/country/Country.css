@@ -1,5 +1,6 @@
 .country {
   margin-top: 7rem;
+  overflow-x: hidden;
 }
 .country .dest {
   color: #bb2d3b;
@@ -34,7 +35,7 @@
   text-align: center;
   color: #ffffff;
   text-shadow: 2px 2px #acacac;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: bold;
   text-transform: capitalize;
 }

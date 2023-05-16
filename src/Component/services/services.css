@@ -1,6 +1,7 @@
 .services {
   margin-top: 6rem;
   margin-bottom: 5rem;
+  overflow-x: hidden;
 }
 .services .title {
   font-family: "Anton", sans-serif;
