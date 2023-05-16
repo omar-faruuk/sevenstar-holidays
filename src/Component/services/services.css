@@ -51,6 +51,7 @@
   .services {
     margin-top: 3rem;
     margin-bottom: 1rem;
+    /* overflow-x: hidden; */
   }
   .services .title {
     margin-bottom: 1.5rem;
@@ -78,5 +79,11 @@
   }
   .slick-dots li {
     width: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .services {
+    /* overflow-x: hidden; */
   }
 }
